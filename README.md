@@ -9,7 +9,7 @@
   * `name_party_me` listชื่อคนที่มางานฉัน
   * `name_party_remove` คนที่จะไม่มางานเพื่อน
   * `name_party_add` คนที่จะมางานเพื่อนเพิ่ม
-## ถ้าคนที่จะให่เอาออกแล้วไม่เจอใน`name_party_me` ให้คืนค่า Error
+### ถ้าคนที่จะให่เอาออกแล้วไม่เจอใน`name_party_me` ให้คืนค่า Error
 # Output
   * `List`รายงานของฉัน
   * `List`รายชื่อคนมางานเพื่อน
@@ -19,11 +19,11 @@ def listparty(name_party_me,name_party_remove,name_party_add):
     return 0
 ```
 # Example
-## Input
+### Input
 ```python
 listparty(["A","B","C","D","E","F","G","H","I","J"],[A],["k","L"])
 ```
-## Output
+### Output
 ```python
 ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
 ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
