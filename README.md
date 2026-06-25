@@ -6,12 +6,13 @@
 ตัดรายชื่อและเพิ่มชื่อในรายชื่อของเพื่อน และแสดงรายชื่องานของฉันและเพื่อน
 
 # Input
-  * 'name_party_me' listชื่อคนที่มางานฉัน
-  * 'name_party_remove' คนที่จะไม่มางานเพื่อน
-  * 'name_party_add' คนที่จะมางานเพื่อนเพิ่ม
+  * `name_party_me` listชื่อคนที่มางานฉัน
+  * `name_party_remove` คนที่จะไม่มางานเพื่อน
+  * `name_party_add` คนที่จะมางานเพื่อนเพิ่ม
+ถ้าคนที่จะให่เอาออกแล้วไม่เจอใน`name_party_me` ให้คืนค่า Error
 # Output
-  * 'List'รายงานของฉัน
-  * 'List'รายชื่อคนมางานเพื่อน
+  * `List`รายงานของฉัน
+  * `List`รายชื่อคนมางานเพื่อน
 # Function
 ```python
 def listparty(name_party_me,name_party_remove,name_party_add):
