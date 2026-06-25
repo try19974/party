@@ -14,7 +14,7 @@
   * 'List'รายชื่อคนมางานเพื่อน
 # Function
 ```python
-def listparty(name_party_me,name_party_remove,name_party_add)
+def listparty(name_party_me,name_party_remove,name_party_add):
     return 0
 ```
 # Example
