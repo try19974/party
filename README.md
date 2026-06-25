@@ -11,12 +11,14 @@
   * `name_party_add` คนที่จะมางานเพื่อนเพิ่ม
 ### ถ้าคนที่จะให้เอาออกแล้วไม่เจอใน`name_party_me` ให้คืนค่า Error
 # Output
-  * `List`รายงานของฉัน
-  * `List`รายชื่อคนมางานเพื่อน
+  * `name_party_me`รายชื่อคนงานของฉัน
+  * `name_party_friend`รายชื่อคนมางานเพื่อน
 # Function
 ```python
 def listparty(name_party_me,name_party_remove,name_party_add):
-    return list รายชื่อของฉัน ,listรายชื่อของเพื่อน
+    name_party_me=[]
+    name_party_friend=[]
+    return (name_party_me,name_party_friend)
 ```
 # Example
 ### Input
