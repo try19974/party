@@ -16,11 +16,14 @@
 ```python
 def listparty(name_party_me,name_party_remove,name_party_add)
     return 0
+```
 # Example
-##Input
+## Input
 ```python
 listparty(["A","B","C","D","E","F","G","H","I","J"],[A],["k","L"])
-##Output
+```
+## Output
 ```python
 ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'] '''
+['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
+'''
